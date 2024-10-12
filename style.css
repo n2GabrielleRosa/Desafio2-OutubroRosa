@@ -1,0 +1,93 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  color: #E4EEF1;
+  height: 21.4vh;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 28px;
+}
+header nav ul {
+  font-size: 28px;
+  width: 1216px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.primeiraSessão {
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.p1 {
+  padding-right: 100px;
+}
+
+.segundaSessão {
+  color: #E4EEF1;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  font-size: 25px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.p2 {
+  padding-left: 100px;
+}
+
+.terceiraSessão {
+  width: 100vw;
+  height: 426px;
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .div1 {
+  color: #E4EEF1;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+footer .div1 .nome {
+  padding-left: 120px;
+}
+footer .div1 .instrutor {
+  padding-left: 180px;
+}
+footer .div1 .facilitador {
+  padding-left: 180px;
+}
+footer .div1 .vnw {
+  padding-left: 10px;
+}/*# sourceMappingURL=style.css.map */
